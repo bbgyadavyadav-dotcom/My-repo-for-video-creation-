@@ -1,0 +1,37 @@
+name: Generate first character reference
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Hugging Face client
+        run: pip install --upgrade huggingface_hub
+
+      - name: Generate Survivor reference
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/generate_reference.py
+
+      - name: Save generated image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add references/CHAR_001_base.png
+          git commit -m "Generate Survivor reference"
+          git push
+          
