@@ -1,0 +1,241 @@
+{
+  "project": "Plague Island: 30 Days Trapped With Zero Signal",
+  "total_characters": 7,
+  "characters": [
+    {
+      "id": "CHAR_001",
+      "name": "The Survivor (unnamed narrator, addressed as 'you')",
+      "role": "Protagonist",
+      "approximate_age": "Not established; draw as an adult around 35 (assumed)",
+      "age_established": false,
+      "face_and_hairstyle": "Lean, angular, gaunt face with high cheekbones, hollow tired eyes with dark under-eye shadows, short unkempt dark hair, no beard. Gender is never stated in the story, so the face is kept androgynous and often shadowed.",
+      "clothing": "Dark olive waxed rain jacket over charcoal wool sweater, dark work trousers, black rubber boots (assumed everyday island wear). Gear escalates: Day 11 soda-bottle charcoal mask and swimming goggles; Day 19-20 black contractor-bag suit sealed with silver duct tape at wrists, ankles and torso.",
+      "recognizable_features": [
+        "Lean build and flat, cold stare",
+        "Cold-reddened cracked hands",
+        "Gets visibly more exhausted and filthier with each Day",
+        "Silver duct tape and the soda-bottle charcoal mask are signature props"
+      ],
+      "personality": "Cold, calculating and survival-first; deliberately unsentimental (ignores the dying butcher, stays silent for the doctor's wife) yet patient, resourceful and calm under extreme fear.",
+      "visual_consistency_rules": [
+        "Same face, hair and olive jacket in every scene",
+        "Follow the gear states in order: base, then mask (Day 11), then suit (Day 19), then full (Day 20 to end)",
+        "No weapons: the story gives none",
+        "Face stays mostly shadowed, turned away or behind goggles until the reveal in S33",
+        "Walks, never runs, while in the plastic suit"
+      ],
+      "gear_states": {
+        "base": "S01-S05, S08, S09, S12-S15, S19",
+        "mask": "S20",
+        "suit": "S23",
+        "full": "S24, S25, S27-S36"
+      },
+      "prompt_descriptor": "the Survivor, a lean adult islander with short unkempt dark hair, gaunt angular face with hollow tired eyes and dark under-eye shadows, wearing a dark olive waxed rain jacket over a charcoal wool sweater, dark work trousers and black rubber boots",
+      "assumed_fields": [
+        "approximate_age",
+        "gender presentation",
+        "base clothing",
+        "hair"
+      ],
+      "appears_in_scenes": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S09",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S19",
+        "S20",
+        "S21",
+        "S23",
+        "S24",
+        "S25",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36"
+      ]
+    },
+    {
+      "id": "CHAR_002",
+      "name": "The Butcher (the visual script calls him a fisherman)",
+      "role": "First visible victim",
+      "approximate_age": "Not established; assumed around 55",
+      "age_established": false,
+      "face_and_hairstyle": "Broad weathered face, thick grey-streaked moustache, thinning short grey hair. Black veins spiderweb across his neck and blood coats his teeth.",
+      "clothing": "Blood-stained off-white butcher's apron over a thick wool fisherman's sweater, sleeves rolled, heavy rubber boots (merges the 'butcher' voiceover and 'fisherman' visual).",
+      "recognizable_features": [
+        "Stocky heavy build",
+        "Moustache",
+        "Black veins on neck and jaw"
+      ],
+      "personality": "Gruff, ordinary tradesman; a helpless collapsing victim.",
+      "visual_consistency_rules": [
+        "Appears only in S03",
+        "Keep infection signs to neck and jaw so he reads as an early stage",
+        "Stocky silhouette must differ clearly from the survivor"
+      ],
+      "prompt_descriptor": "the Butcher, a heavy-set man around 55 with a broad weathered face, thick grey-streaked moustache and thinning grey hair, blood-stained off-white butcher's apron over a thick wool fisherman's sweater, black veins spiderwebbing over his neck and blood on his teeth",
+      "assumed_fields": [
+        "approximate_age",
+        "moustache and build"
+      ],
+      "appears_in_scenes": [
+        "S03"
+      ]
+    },
+    {
+      "id": "CHAR_003",
+      "name": "The Doctor's Wife",
+      "role": "Doomed would-be helper",
+      "approximate_age": "Not established; assumed around 45",
+      "age_established": false,
+      "face_and_hairstyle": "Narrow tear-streaked face, red-rimmed eyes, grey-streaked dark hair in a loosening bun with strands stuck to wet cheeks; faint dark veins creeping up her throat, flecks of blood at her lips.",
+      "clothing": "Long dark wool coat thrown over a pale nightdress, muddy hem, bare chapped hands.",
+      "recognizable_features": [
+        "Coughing",
+        "Tears",
+        "Early veins on throat"
+      ],
+      "personality": "Kind, devoted, frightened and desperate; embodies 'the good people die first'.",
+      "visual_consistency_rules": [
+        "Appears only at midnight on Day 1 (S08)",
+        "Show early infection, not zombie-like behaviour",
+        "Never shown entering the cabin"
+      ],
+      "prompt_descriptor": "the Doctor's Wife, a woman around 45 with a narrow tear-streaked face, grey-streaked dark hair in a loosening bun, red-rimmed eyes, faint dark veins on her throat, wearing a long dark wool coat over a pale nightdress with a muddy hem",
+      "assumed_fields": [
+        "approximate_age",
+        "hair and clothing"
+      ],
+      "appears_in_scenes": [
+        "S08"
+      ]
+    },
+    {
+      "id": "CHAR_004",
+      "name": "The Ferry Captain",
+      "role": "Minor / orders enforcer",
+      "approximate_age": "Not established; assumed around 60",
+      "age_established": false,
+      "face_and_hairstyle": "Weathered ruddy square face with deep squint lines and short white stubble.",
+      "clothing": "Navy peacoat and peaked captain's cap, binoculars in hand.",
+      "recognizable_features": [
+        "Binoculars",
+        "Peaked cap"
+      ],
+      "personality": "Dutiful and grim; follows orders he clearly dislikes.",
+      "visual_consistency_rules": [
+        "Seen only as a small figure in the wheelhouse window (S01)",
+        "No national insignia on cap or ship"
+      ],
+      "prompt_descriptor": "the Ferry Captain, a weathered man around 60 with a ruddy square face and short white stubble, wearing a navy peacoat and a peaked cap, holding binoculars",
+      "assumed_fields": [
+        "approximate_age",
+        "appearance"
+      ],
+      "appears_in_scenes": [
+        "S01"
+      ]
+    },
+    {
+      "id": "CHAR_005",
+      "name": "Healthy Villagers (group)",
+      "role": "Neighbors and crowd",
+      "approximate_age": "Mixed ages",
+      "age_established": false,
+      "face_and_hairstyle": "Ordinary working-class islanders, mixed ages, worry-lined faces, practical haircuts.",
+      "clothing": "Oilskin coats, wool caps, knitted scarves, aprons, rubber boots.",
+      "recognizable_features": [
+        "Buckets at the pump (S10)",
+        "Kneeling by the butcher (S03)"
+      ],
+      "personality": "Compassionate and terrified; rush to help, later gaunt and desperate.",
+      "visual_consistency_rules": [
+        "Same coats throughout",
+        "Noticeably more gaunt and ill by Day 5 (S10)",
+        "Never touching the survivor"
+      ],
+      "prompt_descriptor": "ordinary islanders of mixed ages in oilskin coats, wool caps, knitted scarves and rubber boots with worry-lined faces",
+      "assumed_fields": [
+        "costume details"
+      ],
+      "appears_in_scenes": [
+        "S03",
+        "S04",
+        "S10"
+      ]
+    },
+    {
+      "id": "CHAR_006",
+      "name": "The Infected (horde)",
+      "role": "Antagonistic crowd",
+      "approximate_age": "Mixed ages",
+      "age_established": false,
+      "face_and_hairstyle": "Pale grey skin, dark veins spidering across faces and necks, clouded vacant eyes (optional faint sickly yellow-green glint), wet matted hair, slack mouths.",
+      "clothing": "Soaked everyday clothes and sleepwear, torn from wandering in the rain, bare feet or muddy boots.",
+      "recognizable_features": [
+        "Shivering and swaying shuffle",
+        "Steam rising from fevered skin in cold air",
+        "Drawn to heat and noise"
+      ],
+      "personality": "Delirious and mindless after fever; seek warmth and any living person.",
+      "visual_consistency_rules": [
+        "Slow shuffling, never sprinting",
+        "Group sizes: 4 in the yard (S16), 11 at the back door (S21), 20-25 at the pier (S25, S29)",
+        "Vacant stare, no snarling monster poses",
+        "Image 1 creature is a mood reference only; it is not a story character"
+      ],
+      "prompt_descriptor": "infected villagers with pale grey skin, dark veins spidering across faces and necks, clouded vacant eyes, wet matted hair, soaked everyday clothes and sleepwear, gaunt shivering bodies, slack open mouths",
+      "assumed_fields": [
+        "eye glint",
+        "bare feet"
+      ],
+      "appears_in_scenes": [
+        "S16",
+        "S21",
+        "S24",
+        "S25",
+        "S29"
+      ]
+    },
+    {
+      "id": "CHAR_007",
+      "name": "The Dead Coast Guard Officer",
+      "role": "Discovery / exposition",
+      "approximate_age": "Not established; assumed around 35",
+      "age_established": false,
+      "face_and_hairstyle": "Pale face with half-closed eyes, dark veins visible on her throat; hair tied back.",
+      "clothing": "Blue Coast Guard jacket, bandage around one arm.",
+      "recognizable_features": [
+        "Satellite phone and open laminated folder in her lap",
+        "Boat keys on the desk beside her"
+      ],
+      "personality": "Dutiful (she signalled and stayed); dead since the day before.",
+      "visual_consistency_rules": [
+        "Seen only in the lantern room (S32, S36)",
+        "Never show visible gore beyond bandage and veins",
+        "No real-world national insignia"
+      ],
+      "prompt_descriptor": "a dead Coast Guard officer, a woman around 35 in a blue Coast Guard jacket with a bandage around one arm, dark veins on her throat, pale skin, eyes half closed",
+      "assumed_fields": [
+        "approximate_age",
+        "hair"
+      ],
+      "appears_in_scenes": [
+        "S32",
+        "S36"
+      ]
+    }
+  ]
+}
